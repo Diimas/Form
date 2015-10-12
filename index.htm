@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Registration page</title>
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+	<form id="1" style="font-family: arial" name="registration">
+	<table align="center" border="0" width="900" cellspacing="0" cellpadding="15">
+		<tr><!-- first_name -->
+			<td align="right">
+				<label for="first_name">Frst name:</label>
+			</td>
+			<td>
+				<form>
+					<input type="text" name="first_name" id="first_name" required>
+				</form>
+			</td><!-- first_name -->
+		</tr>
+		<tr><!-- last_name -->
+			<td align="right">
+				<label for="last_name">Last name:</label>
+			</td>
+			<td>
+				<form>
+					<input type="test" name="last_name" id="last_name" required>
+				</form>
+			</td><!-- last_name -->
+		</tr>
+		<tr><!-- sex -->
+			<td align="right">
+				Sex:
+			</td>
+			<td>
+				<form>
+					Male<input type="radio" name="sex" id="sex">
+					Female<input type="radio" name="sex" id="sex">
+				</form>
+			</td><!-- Sex -->
+		</tr>
+		<tr><!-- user_email -->
+			<td align="right">
+				<label for="user_email">Email:</label>
+			</td>
+			<td>
+				<form>
+					<input type="email" name="user_email" id="user_email" required placeholder="your@email.com">
+				</form>
+			</td><!--  -->
+		</tr>
+		<tr><!-- Password -->
+			<td align="right">
+				<label for="user_pass">Password:</label>
+			</td>
+			<td>
+				<form>
+					<input type="password" name="user_password" id="user_pass" requred>
+				</form>
+			</td>
+		</tr>
+		<tr><!-- Country -->
+			<td align="right">
+				Country:
+			</td>
+			<td>
+				<form>
+					<select>
+						<option>Ukraine</option>
+						<option>Russia</option>
+						<option>America</option>
+						<option>Afrca</option>
+						<option>Japan</option>
+					</select>
+				</form>
+			</td><!--  -->
+		</tr>
+		<tr><!-- user_adress -->
+			<td align="right">
+				<label for="user_adress">Adress:</label>
+			</td>
+			<td>
+				<form>
+					<input type="text" name="user_adress" id="user_adress">
+				</form>
+			</td>
+		</tr>
+		<tr><!-- user_tel -->
+			<td align="right">
+				<label for="user_tel">Telephone number:</label>
+			</td>
+			<td>
+				<form>
+					<input type="text" name="user_tel" id="user_tel" placeholder="+3 8(093) 11 22 333">
+				</form>
+			</td>
+		</tr>
+		<tr><!-- file_upload -->
+			<td align="right">
+				<label for="file_upload">Setup your avatar:</label>
+			</td>
+			<td>
+				<form>
+					<!--<button></button>-->
+					<input type="file" name="file_upload" id="file_upoad">
+				</form>
+			</td>
+		</tr>
+		<tr><!-- submit -->
+			<td colspan="2" align="center">
+				<form>
+					<button type="submit" id="1">
+						Submit!
+					</button>
+				</form>
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
